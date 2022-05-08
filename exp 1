@@ -1,0 +1,115 @@
+---
+title: "Experiment-1 Basic Math & Stat operation in R"
+author: "Aben B John"
+date: '2022-04-11'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## AIM
+
+Execute basic mathematical and statistical operations in R
+
+## Algorithm
+
+
+**Step-1** Create R-code chunks
+
+**Step-2** Write math expression
+
+**Step-3** Run the code
+
+**Step-4** Report the result
+
+
+## R-code
+
+In this code experiment basic mathematical operations will be tested using R
+
+```{r addition}
+ # Addition
+a=10
+b=125
+total=a+b
+total
+```
+
+```{r Subtraction}
+# Substraction
+x=150
+y=200
+difference=y-x
+difference
+
+```
+```{r multiplication}
+i=10
+j=2.5
+product=i*j
+paste0("product of: ", i ," and ", j ," is ", product)
+```
+```{r division}
+b1=4
+b2=3
+qu=b1/b2
+qu
+
+```
+```{r finding remainder}
+rem=b1%%b2
+rem
+
+```
+```{r Flooring operation}
+f=b1%/%b2
+f
+
+```
+```{r power operation}
+a=5
+b=a^20
+b
+
+```
+```{r Power operation  on sequence}
+s=1:10
+s^10
+
+```
+```{r Scalar multiplication on array}
+ar=c(1,5,7,9,12)
+5*ar
+```
+```{r vector multiplication}
+br=c(1,4,1,2,8)
+ar*br# element-wise multiplication
+
+```
+```{r round down a number}
+floor(3.212152)
+
+```
+```{r round up a number}
+ceiling(0.618)
+```
+```{r factorail of a positive number}
+factorial(5)
+
+```
+```{r factorial of a positive number}
+factorial(10)
+
+```
+To Find $nCr=\frac{n!}{r!(n-r)}$
+```{r combination}
+choose(5,3)
+```
+permutation can be found using: $^n P_r=n\times(n-1)\times \cdots \times (n-r+1)$
+```{r permutation}
+prod(10:(10-4+1)) # permutations of 10 p4
+```
+
+## Results
