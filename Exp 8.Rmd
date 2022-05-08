@@ -1,6 +1,6 @@
 ---
 title: 'Experiment 8: Normal Distribution'
-author: "siju.swamy@saintgits.org"
+author: "Aben B John"
 date: "4/23/2022"
 output: html_document
 ---
