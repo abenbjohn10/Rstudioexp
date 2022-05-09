@@ -1,6 +1,6 @@
 ---
 title: 'Experiment 13: Ordinary Linear Regression using R'
-author: "siju.swamy@saintgits.org"
+author: "Aben B John"
 date: "4/23/2022"
 output: html_document
 ---
